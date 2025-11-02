@@ -2,6 +2,8 @@
 
 Psychology assessment application for evaluating schizophrenia symptoms using the SYNAPSS scale.
 
+To download the portable executable - https://drive.google.com/drive/folders/1I2LQ4Ww-L2gUls_ZQTfZsNHrX80hwEbs?usp=sharing
+
 ## Features
 
 - Patient management and search
