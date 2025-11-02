@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: system-ui, -apple-system, sans-serif;
+    }
+    body {
+        @apply bg-blue10;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply px-4 py-2 rounded-lg font-medium transition-colors duration-200;
+    }
+    .btn-primary {
+        @apply bg-blue4 text-white hover:bg-blue3;
+    }
+    .input {
+        @apply px-4 py-2 border border-blue7 rounded-lg focus:border-blue4 focus:ring-2 focus:ring-blue8 outline-none transition-all duration-200;
+    }
+}
